@@ -1,0 +1,34 @@
+{
+  "name": "@fet/tsr",
+  "version": "0.1.0",
+  "description": "A tiny typescript runner for node.js build with esbuild",
+  "main": "index.js",
+  "author": "cwuyiqing@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "bin": {
+    "tsr": "./bin/tsr.js"
+  },
+  "keywords": [
+    "typescript",
+    "esbuild",
+    "node",
+    "nodejs",
+    "ts-node"
+  ],
+  "dependencies": {
+    "esbuild": "^0.12.17",
+    "source-map-support": "^0.5.19"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.9",
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
+    "eslint": "^7.32.0",
+    "eslint-config-alloy": "^4.2.0",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.5"
+  }
+}
