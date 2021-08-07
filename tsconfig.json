@@ -5,7 +5,7 @@
     "outDir": "lib",
     "module": "commonjs",
     "lib": ["esnext"],
-    "importHelpers": true,
+    "importHelpers": false,
     "declaration": true,
     "sourceMap": true,
     "noImplicitReturns": true,
